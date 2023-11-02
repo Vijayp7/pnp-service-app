@@ -1,0 +1,293 @@
+
+.srvc-dtls {
+    background: #f7f7f7;
+    height: 100%;
+}
+.srvc-dtls_lgn_stng {
+    min-height: 165px;
+    background: #9dce76;
+    width: 100%;
+    /* position: relative; */
+    border-radius: 0 0 25px 25px;
+}
+
+.srvc-dtls-hd {
+    min-height: 100px;
+    background: #9dce76;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.srvc-dtls-hd h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    color: #fff;
+    text-align: center;
+}
+
+.srvc-dtls-bck {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    z-index: 9;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/*vet@home*/
+.vh-bkng-cnt h5{
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .srvc-on, .avl-dys-item, .avl-tm-item {
+    border-radius: 7px;
+    padding: 0 12px;
+    min-height: 48px;
+    flex: 0 0 130px;
+    max-width: 130px;
+  }
+  .srvc-on-img, .avl-dys-cldr {
+    margin-right: 12px;
+    flex: 0 0 30px;
+    max-width: 30px;
+    height: 30px;
+  }
+  .avl-dys-cldr {
+    margin-right: 10px;
+    flex: 0 0 26px;
+    max-width: 26px;
+    height: 26px;
+  }
+  .srvc-on-off, .avl-dys-list, .avl-tm-list {
+    margin-bottom: 16px;
+  } 
+  .srvc-on p, .avl-dys-item p, .avl-tm-item p {
+    font-size: 13px;
+  }
+  .srvc-on .chk-item label:before, .avl-tm-item .chk-item label:before {
+    padding: 7px;
+  }
+  .srvc-on .chk-item input:checked + label:after, .avl-tm-item .chk-item input:checked + label:after {
+    top: 3px;
+    left: 6px;
+    width: 3px;
+    height: 7px;
+  }
+  .vh-bkng-cnt {
+    padding: 18px 12px;
+    border-radius: 7px;
+  }
+  .vh-bkng-main {
+    padding: 26px 12px;
+  }
+  .v-upld-c {
+    margin-bottom: 20px;
+  }
+  .v-upld-c .btn2 {
+    padding: 8px 16px 8px 16px;
+    border-radius: 7px;
+    height: 48px;
+    font-size: 13px;
+    background-position: right 16px center;
+    background-size: 24px;
+  }
+  .v-upld-c input[type=file], .v-upld-c input.v-upld {
+    height: 48px;
+  }
+
+
+
+  .vh-bkng-main {
+    padding: 26px 10px;
+    background: #f7f7f7;
+}
+
+.vh-bkng-cnt {
+    padding: 24px 14px;
+    background: #fff;
+    border-radius: 14px;
+    margin: -70px 0 24px;
+    position: relative;
+}
+.vh-bkng-cnt h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #414349;
+    margin-bottom: 12px;
+}
+
+.srvc-on-off,.avl-dys-list,.avl-tm-list{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+.srvc-on,.avl-dys-item,.avl-tm-item{
+  display: flex;
+  align-items: center;
+  background-color: #f7f7f7;
+  border: 2px solid #ededed;
+  border-radius: 10px;
+  padding: 0 20px;
+  min-height: 52px;
+  position: relative;
+  flex: 0 0 170px;
+  max-width: 170px;
+  margin-bottom: 7px;
+  margin-right: 5px;
+}
+.avl-tm-item{
+  justify-content: center;
+  margin-bottom: 14px;
+}
+.srvc-on.active,.avl-dys-item.active,.avl-tm-item.active{
+  background-color: #9dce76;
+  border: 2px solid #9dce76;
+}
+.srvc-on-img,.avl-dys-cldr{
+  margin-right: 18px;
+  flex: 0 0 40px;
+  max-width: 40px;
+  height: 40px;
+}
+.srvc-on p,.avl-dys-item p,.avl-tm-item p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #515151;
+}
+.srvc-on.active p,.avl-dys-item.active p,.avl-tm-item.active p{
+  color: #fff;
+}
+.srvc-on .chk-item,.avl-tm-item .chk-item{
+    position: absolute;
+    top: 2px;
+    right: 5px;
+}
+.srvc-on .chk-item input,.avl-tm-item .chk-item input{
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+.srvc-on .chk-item label,.avl-tm-item .chk-item label{
+    font-family: 'DM Sans';
+    font-weight: 400;
+    position: relative;
+    cursor: pointer;
+    color: #656668;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+.srvc-on .chk-item label:before,.avl-tm-item .chk-item label:before{
+    content: '';
+    background-color: #fff;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    padding: 8px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    /* margin-right: 15px; */
+    border-radius: 50%;
+}
+.srvc-on .chk-item input:checked + label:before,.avl-tm-item .chk-item input:checked + label:before{
+    border: 1px solid #fff;
+    background: #fff;
+}
+.srvc-on .chk-item input:checked + label:after,.avl-tm-item .chk-item input:checked + label:after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 7px;
+    width: 3px;
+    height: 7px;
+    border: solid #8fd259;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+.avl-dys-cldr {
+    margin-right: 15px;
+    flex: 0 0 30px;
+    max-width: 30px;
+    height: 30px;
+}
+.avl-dys-item {
+    padding: 0 15px;
+}
+
+.v-upld-c{
+    position: relative;
+    margin-bottom: 24px;
+}
+.v-upld-c .btn2 {
+    background-color: #f5f5f5;
+    padding: 8px 20px 8px 20px;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 52px;
+    /* text-align: left; */
+    color: #9b9b9b;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    background-image: url(../../public/file.png);
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    background-size: 26px;
+}
+.v-upld-c input[type=file], .v-upld-c input.v-upld {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    height: 52px;
+    width: 100%;
+}
+
+@media(max-width:413px){
+  .srvc-on, .avl-dys-item, .avl-tm-item {
+    padding: 0 16px;
+    flex: 0 0 130px;
+    max-width: 130px;
+    min-height: 58px;
+  }
+  .srvc-on-img, .avl-dys-cldr {
+    margin-right: 10px;
+  }
+  .avl-dys-cldr {
+    flex: 0 0 26px;
+    max-width: 26px;
+    height: 26px;
+    
+  }
+  .avl-dys-item p{
+    font-size: 13px;
+  }
+  .avl-dys-item {
+    padding: 0 12px;
+  }
+}

@@ -1,0 +1,285 @@
+/*my-verification*/
+
+.vrfn-item{
+    padding: 20px 15px 20px 30px;
+    background: #fff;
+    border-radius: 12px;
+    border: 2px solid #e1e1e1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  .vrfn-item-lft{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    flex: 0 0 250px;
+    max-width: 250px;
+  }
+  .vrfn-item-img{
+    flex: 0 0 45px;
+    max-width: 45px;
+    margin-right: 15px;
+  }
+  .vrfn-item-cnt p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #393939;
+  }
+  .vrfn-item-cnt span{
+    font-family: 'DM Sans', sans-serif;
+    color:#acbbb0;
+    font-size:14px;
+    font-weight: 500;
+    display: block;
+  }
+  .vrfn-item-cnt .vrfcn-pndng{
+    color: #ffa946;
+  }
+  .vrfn-item-cnt .vrfcn-sucss{
+    color: #1bbf49;
+  }
+  .vrfn-item-rht img,.vrfn-item-img img{
+    display: block;
+    margin: 0 auto;
+  }
+  .vrfn-back-btn button {
+      width: 180px;
+      background: #ee8558;
+      border-radius: 40px;
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      border: none;
+      outline: none;
+      min-height: 48px;
+      margin: 0 auto;
+      display: block;
+  }
+  .vrfn-item-rht{
+      flex: 0 0 50px;
+      max-width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+  }
+  .vrfn-item-rht input[type=file] {
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: 0;
+      height: 52px;
+      width: 100%;
+  }
+  .vrfn-back-btn {
+      padding-bottom: 50px;
+  }
+  
+  
+  
+  /*vet@home css*/
+  
+  .vh-bkng-main {
+      padding: 26px 14px;
+      background: #f7f7f7;
+  }
+  
+  .vh-bkng-cnt {
+      padding: 24px 14px;
+      background: #fff;
+      border-radius: 14px;
+      margin: -70px 0 24px;
+  }
+  .vh-bkng-cnt h5{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      color: #414349;
+      margin-bottom: 12px;
+  }
+  
+  .srvc-on-off,.avl-dys-list,.avl-tm-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+  }
+  .srvc-on,.avl-dys-item,.avl-tm-item{
+    display: flex;
+    align-items: center;
+    background-color: #f7f7f7;
+    border: 2px solid #ededed;
+    border-radius: 10px;
+    padding: 0 20px;
+    min-height: 52px;
+    position: relative;
+    flex: 0 0 170px;
+    max-width: 170px;
+    margin-bottom: 7px;
+  }
+  .avl-tm-item{
+    justify-content: center;
+    margin-bottom: 14px;
+  }
+  .srvc-on.active,.avl-dys-item.active,.avl-tm-item.active{
+    background-color: #9dce76;
+    border: 2px solid #9dce76;
+  }
+  .srvc-on-img,.avl-dys-cldr{
+    margin-right: 18px;
+    flex: 0 0 40px;
+    max-width: 40px;
+    height: 40px;
+  }
+  .srvc-on p,.avl-dys-item p,.avl-tm-item p{
+      font-family: 'DM Sans', sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      color: #515151;
+  }
+  .srvc-on.active p,.avl-dys-item.active p,.avl-tm-item.active p{
+    color: #fff;
+  }
+  .srvc-on .chk-item,.avl-tm-item .chk-item{
+      position: absolute;
+      top: 2px;
+      right: 5px;
+  }
+  .srvc-on .chk-item input,.avl-tm-item .chk-item input{
+      padding: 0;
+      height: initial;
+      width: initial;
+      margin-bottom: 0;
+      display: none;
+      cursor: pointer;
+  }
+  .srvc-on .chk-item label,.avl-tm-item .chk-item label{
+      font-family: 'DM Sans';
+      font-weight: 400;
+      position: relative;
+      cursor: pointer;
+      color: #656668;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+  }
+  .srvc-on .chk-item label:before,.avl-tm-item .chk-item label:before{
+      content: '';
+      background-color: #fff;
+      border: 1px solid #cdcdcd;
+      border-radius: 5px;
+      padding: 8px;
+      display: inline-block;
+      position: relative;
+      vertical-align: middle;
+      cursor: pointer;
+      /* margin-right: 15px; */
+      border-radius: 50%;
+  }
+  .srvc-on .chk-item input:checked + label:before,.avl-tm-item .chk-item input:checked + label:before{
+      border: 1px solid #fff;
+      background: #fff;
+  }
+  .srvc-on .chk-item input:checked + label:after,.avl-tm-item .chk-item input:checked + label:after{
+      content: '';
+      display: block;
+      position: absolute;
+      top: 4px;
+      left: 7px;
+      width: 3px;
+      height: 7px;
+      border: solid #8fd259;
+      border-width: 0 2px 2px 0;
+      transform: rotate(45deg);
+  }
+  .avl-dys-cldr {
+      margin-right: 15px;
+      flex: 0 0 30px;
+      max-width: 30px;
+      height: 30px;
+  }
+  .avl-dys-item {
+      padding: 0 15px;
+  }
+  
+  .v-upld-c{
+      position: relative;
+      margin-bottom: 24px;
+  }
+  .v-upld-c .btn2 {
+      background-color: #f5f5f5;
+      padding: 8px 20px 8px 20px;
+      border-radius: 10px;
+      width: 100%;
+      border: none;
+      outline: none;
+      height: 52px;
+      /* text-align: left; */
+      color: #9b9b9b;
+      font-family: 'Poppins', sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      /* background-image: url(../../public/v-upld-icon.png); */
+      background-repeat: no-repeat;
+      background-position: right 20px center;
+      background-size: 26px;
+  }
+  .v-upld-c input[type=file], .v-upld-c input.v-upld {
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: 0;
+      height: 52px;
+      width: 100%;
+  }
+
+
+  @media(max-width:413px){
+    .vrfn-item {
+        padding: 16px 12px 16px 24px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+      }
+      .vrfn-item-img {
+        flex: 0 0 36px;
+        max-width: 36px;
+        margin-right: 12px;
+      }
+      .vrfn-item-cnt p {
+        font-size: 14px;
+      }
+      .vrfn-item-cnt span {
+        font-size: 13px;
+      }
+      .vrfn-item-lft {
+        flex: 0 0 180px;
+        max-width: 180px;
+      }
+      .vrfn-item-rht {
+        flex: 0 0 40px;
+        max-width: 40px;
+        height: 40px;
+      }
+      .vrfn-item-rht input[type=file] {
+        height: 40px;
+      }
+      .vrfn-back-btn {
+        padding-bottom: 40px;
+      }
+      .vrfn-back-btn button {
+        width: 160px;
+        font-size: 14px;
+        min-height: 44px;
+      }
+    
+    
+    
+  }

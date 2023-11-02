@@ -1,0 +1,18 @@
+/*enter page*/
+
+.enter-page {
+    /* display: flex;
+    justify-content: center; */
+    height: auto;
+    min-height: 100vh;
+    background: #fff5e8;
+    overflow: hidden;
+}
+.enter-page-logo{
+  width: 120px;
+  height: auto;
+  margin: 0 auto;
+}
+.enter-page-logo img{
+    margin-bottom: 20px;
+}

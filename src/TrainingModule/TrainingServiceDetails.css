@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+      contain: content;
+      height:100%;
+      min-height: 100vh;
+  }
+  
+  .service_class {
+      background-color: #9dce76;
+      min-height: 100px;
+      display: flex;
+      padding-top: 35px;
+      padding-bottom: 38px;
+  }
+  .service_sym {
+      background: #fff;
+      border-radius: 50%;
+      width: 34px;
+      height: 34px;
+      margin-left: 15px;
+  }
+  .service_sym img {
+      padding: 12px 10px;
+  }
+  .serv_det {
+      margin: 0px auto;
+  }
+  .serv_det h5 {
+      font: 500 20px 'Poppins';
+      color: #ffffff;
+  }
+  
+  
+  
+  
+  .training_sections {
+      margin: 30px 15px;
+  }
+  .obedience_sec{
+      background-color: #f1f1f1;
+      padding-top: 36px;
+      border-radius: 14px;
+  }
+  .obedience_class {
+      padding-bottom: 20px;
+      border-bottom: 1px solid #ccc;
+  }
+  .obe-training {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 32px;
+      padding-right: 0;
+  }
+  .obe_img {
+      background: #fff;
+      height: 64px;
+      flex:0 0 64px;
+      max-width: 64px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .obe_img img {
+      padding-left: 0;
+  }
+  .obe_txt h5 {
+      font: 600 18px 'Poppins';
+      color: #333333;
+  }
+  .medal_img {
+    background: #ffff;
+    flex: 0 0 36px;
+    height: 36px;
+    border-radius: 50%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .obedience_train {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 32px 0px 38px;
+  }
+  .obedience_list i.fa-solid.fa-check {
+      color: #9dce76;
+      /* color: #989898; */
+  }
+  .obedience_list span {
+      padding-left: 10px;
+      font-size: 17px;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 500;
+      color: #3e3e3b;
+      line-height: 32px;
+  }
+  .select_pack {
+      margin-top: 26px;
+      text-align: center;
+  }
+  button.select_btn {
+      width: 330px;
+      border: none;
+      background: #ffdc4e;
+      height: 52px;
+      border-radius: 32px;
+      color: #333333;
+      font: 500 16px 'Poppins';
+      margin-bottom: 36px;
+      
+  }
+  .obedience_sec.active, .intermediate_sec.active, .advance_sec.active{
+    background-color: #eff6c1;
+  }
+  .obedience_sec.active{
+    background-color: #ffdee7;
+  }
+  .intermediate_sec.active{
+    background-color: #fff3e5;
+  }
+  .advance_sec.active{
+    background-color: #fff9c5;
+  }
+  .obedience_sec.active button.select_btn,.intermediate_sec.active button.sel_btn, .advance_sec.active button.adv_btn {
+    background-image: url(../../public/tick_mark.png);
+    background-repeat: no-repeat;
+    background-position: 6px 6px;
+  }
+  .intermediate_sec.active .intermediate_list i.fa-solid.fa-check,
+  .advance_sec.active .advance_list i.fa-solid.fa-check {
+    color: #9dce76;
+  }
+  
+  
+  .intermediate_sec {
+      background-color: #f1f1f1;
+      padding-top: 36px;
+      border-radius: 14px;
+      margin-top: 30px;
+  }
+  .intermediate_class{
+      padding-bottom: 20px;
+      border-bottom: 1px solid #ccc;
+  }
+  .int-training{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 32px;
+      padding-right: 0;
+  }
+  .int_img{
+      background: #fff;
+      height: 64px;
+      flex:0 0 64px;
+      max-width: 64px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .int_img img {
+    padding: 0;
+    width: 35px;
+  }
+   .int_txt h5 {
+      font: 600 18px 'Poppins';
+      color: #333333;
+  }
+  .intmedal_img {
+    background: #ffff;
+    flex: 0 0 36px;
+    height: 36px;
+    border-radius: 50%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .intermediate_train {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 32px 0px 38px;
+  }
+  .intermediate_list i.fa-solid.fa-check {
+      color: #989898;
+  }
+  .intermediate_list span {
+      padding-left: 10px;
+      font-size: 17px;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 500;
+      color: #3e3e3b;
+      line-height: 32px;
+  }
+  .select_pack2 {
+      margin-top: 26px;
+      text-align: center;
+  }
+  button.sel_btn {
+      width: 330px;
+      border: none;
+      background: #ffdc4e;
+      height: 52px;
+      border-radius: 32px;
+      color: #333333;
+      font: 500 16px 'Poppins';
+      margin-bottom: 36px;
+  }
+  .advance_sec {
+      background-color: #f1f1f1;
+      padding-top: 36px;
+      border-radius: 14px;
+      margin-top: 30px;
+  }
+  .advance_class {
+      padding-bottom: 20px;
+      border-bottom: 1px solid #ccc;
+  }
+  
+  .ad-training{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 32px;
+      padding-right: 0;
+  }
+  .adv_img{
+    background: #fff;
+    height: 64px;
+    flex: 0 0 64px;
+    max-width: 64px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .adv_img img {
+      padding: 0;
+      width: 40px;
+  }
+  .adv_txt h5 {
+      font: 600 18px 'Poppins';
+      color: #333333;
+  }
+  .advmedal_img {
+    background: #ffff;
+    flex: 0 0 36px;
+    height: 36px;
+    border-radius: 50%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .advance_train {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 32px 0px 38px;
+  }
+  .advance_list i.fa-solid.fa-check {
+      color: #989898;
+  }
+  .advance_list span {
+      padding-left: 10px;
+      font-size: 17px;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 500;
+      color: #3e3e3b;
+      line-height: 32px;
+  }
+  .select_pack3 {
+      margin-top: 26px;
+      text-align: center;
+  }
+  button.adv_btn {
+      width: 330px;
+      border: none;
+      background: #ffdc4e;
+      height: 52px;
+      border-radius: 32px;
+      color: #333333;
+      font: 500 16px 'Poppins';
+      margin-bottom: 36px;
+  }
+  
+  button.submit {
+      background: #ee8558;
+      border: none;
+      width: 354px;
+      height: 50px;
+      border-radius: 32px;
+      color: #ffffff;
+      font: 500 16px 'Poppins';
+  }
+  .service_btn {
+      margin-top: 50px;
+      margin-bottom: 195px;
+      text-align: center;
+  }
+  
+  @media (max-width:413px){
+      body {
+      width: 100%;
+      }
+  
+      /* .obe_img {
+        height: 54px;
+        flex: 0 0 54px;
+        max-width: 54px;
+      } */
+      .obe_img img {
+        padding-left: 0;
+        width: 40px;
+      }
+      .obe-training {
+      padding-left: 0;
+      }
+     .serv_det h5, .obe_txt h5, .int_txt h5, .adv_txt h5 {
+      font-size: 14px;
+      padding-left: 25px;
+     }
+     .obedience_list {
+      margin-left: -33px;
+     }
+      button.select_btn, .sel_btn, .adv_btn, .submit {
+      width: 269px !important;
+      height: 48px !important;
+      font-size: 15px !important;
+     }
+     .advance_train {
+      margin: 0px -26px;
+      }
+     .obedience_list span, .advance_list span, .intermediate_list span {
+         font-size: 14px;
+      }
+      .serv_det h5, .obe_txt h5, .int_txt h5, .adv_txt h5 {
+        font: 600 14px 'Poppins';
+        margin: 0 10px;
+        line-height: 22px;
+        padding: 0;
+        text-align: center;
+      }
+      .training_sections {
+        margin: 26px 14px;
+      }
+      .obedience_sec {
+        padding: 24px 14px;
+      }
+      .obe-training {
+        padding-left: 0px;
+        padding-right: 0;
+      }
+      .obe_img img {
+        padding-left: 0;
+      }
+      .obedience_train{
+        padding: 20px 14px 0px 34px;
+      }
+      .intermediate_train{
+        padding: 20px 14px 0px 14px;
+      }
+      .advance_train{
+        padding: 20px 26px 0px 34px;
+      }
+      button.select_btn,button.sel_btn,button.adv_btn {
+        margin-bottom: 12px;
+      }
+      .intermediate_sec {
+        padding: 24px 14px;
+        margin-top: 24px;
+      }
+      .int-training {
+        padding-left: 0;
+        padding-right: 0;
+      }
+      .advance_sec{
+        padding: 24px 14px;
+        margin-top: 24px;
+      }
+      .ad-training {
+        padding-left: 0;
+        padding-right: 0;
+      }
+      .adv_img {
+        height: 56px;
+        flex: 0 0 56px;
+        max-width: 56px;
+      }
+    }

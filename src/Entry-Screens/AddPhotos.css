@@ -1,0 +1,138 @@
+
+/*add-media*/
+
+.add-media-main{
+    padding: 35px 20px;
+    background: #f8f8f8;
+  }
+  
+  .add-media-main h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #393939;
+    margin-bottom: 16px;
+  }
+  .add-media-main .cam-div {
+    border: 2px dashed #97da62;
+    background-color: #edf3e8;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+    width: 100%;
+    min-height: 200px;
+    border-radius:14px;
+    position: relative;
+    padding: 45px 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .add-media-main .cam-div img {
+    width: 47px;
+    object-fit: contain;
+    border-radius: 0;
+    margin: 0 auto 36px;
+  }
+  .add-media-main .cam-div input[type=file] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    min-height: 200px;
+    width: 100%;
+  }
+  .add-media-main .cam-div p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #569d1e;
+  }
+  
+  .upld-list{
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+    flex-wrap: wrap;
+    margin: 0 -9px;
+    padding-bottom: 100px;
+  }
+  .upld-item{
+    flex: 0 0 calc(100% / 4 - 18px);
+    max-width: 100%;
+    margin: 0 9px 12px;
+    border-radius: 10px;
+    height: 65px;
+    position: relative;
+  }
+  .upld-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .upld-item .cross-img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -8px;
+    top: -7px;
+    background-color: #8ad74d;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .media-upld-btns button{
+      width: 90%;
+      margin: 0 auto 12px;
+      background-color: #ee8838;
+      border-radius: 40px;
+      padding: 15px 0;
+      outline: none;
+      border: none;
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      display: block;
+      cursor: pointer;
+  }
+  .media-upld-btns button.view-btn{
+    background: transparent;
+    color: #ee8558;
+    border: 1px solid #ee8558;
+  }
+  
+
+
+  @media(max-width : 414px){
+
+   .add-media-main {
+    padding: 24px 16px;
+  }
+  .add-media-main h5 {
+    font-size: 14px;
+    margin-bottom: 12px;
+ }
+ .add-media-main .cam-div input[type=file] {
+    min-height: 175px;
+  }
+  .add-media-main .cam-div {
+    min-height: 175px;
+    border-radius: 10px;
+    padding: 36px 0;
+  }
+  .upld-list {
+    margin: 0 -7px;
+    padding-bottom: 85px;
+  }
+  .upld-item {
+    flex: 0 0 calc(100% / 4 - 14px);
+    margin: 0 7px 12px;
+    border-radius: 8px;
+    height: 56px;
+  }
+}
